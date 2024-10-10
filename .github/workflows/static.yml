@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arches Cricket Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            width: 150px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Replace 'club-logo.jpeg' with the correct path where the image is stored in your repository -->
+    <img src="club-logo.jpeg" alt="Arches Cricket Club Logo">
+    <h1>Welcome to Arches Cricket Club</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#teams">Teams & Players</a>
+    <a href="#fixtures">Fixtures & Results</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Arches Cricket Club is a newly formed club with a passion for cricket. We aim to bring together cricket enthusiasts of all ages and abilities to enjoy the game and improve their skills.</p>
+</section>
+
+<section id="teams">
+    <h2>Teams & Players</h2>
+    <p>Our club currently consists of senior and junior teams. Player profiles and team information will be updated soon.</p>
+</section>
+
+<section id="fixtures">
+    <h2>Fixtures & Results</h2>
+    <p>Stay tuned for upcoming matches and results.</p>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <p>Check out our latest match photos and club events here soon!</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you are interested in joining the Arches Cricket Club or have any inquiries, feel free to reach out to us via email at: <a href="mailto:info@archescc.com">info@archescc.com</a>.</p>
+</section>
+
+<footer>
+    <p>© 2024 Arches Cricket Club. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
